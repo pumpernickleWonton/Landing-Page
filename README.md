@@ -10,3 +10,4 @@ Hopefully this project won't take me incredibly long. It doesn't seem overly com
 COMMIT LOG: 
 
 1. Blank slate file structure with minimal CSS
+2. Basic HTML structure with (most) font stylings
