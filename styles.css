@@ -13,9 +13,17 @@ body {
     display: flex;
 }
 
+/* COLOR WRAPPER STYLING */
+
 .wrapper-blue {
     background-color: #1F2937;
 }
+
+.wrapper-white {
+    background-color: #ddd;
+}
+
+/* HEADER SECTION STYLING */
 
 .header {
     display: flex;
@@ -42,13 +50,15 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 20px;
+    gap: 30px;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+/*HERO SECTION STYLING*/
 
 .hero {
     display: flex;
@@ -71,11 +81,12 @@ a {
 
 .hero-img {
     height: 250px;
+    width: 500px;
 }
 
 .hero-main {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -91,11 +102,47 @@ a {
     border-radius: 8px;
     background-color: #3882F6;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 15px;
     padding: 0;
     margin: 0;
 }
+
+/* INFO SECTION STYLING */
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.info-block {
+    max-width: 200px;
+    padding: 10px;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(0,100,255);
+    border-radius: 15px;
+}
+
+.info-text {
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+/* FOOTER SYTLING */
 
 footer {
     display: flex;
