@@ -12,3 +12,4 @@ COMMIT LOG:
 1. Blank slate file structure with minimal CSS
 2. Basic HTML structure with (most) font stylings
 3. Header/Footer changes, possibly complete
+4. Hero section styling
