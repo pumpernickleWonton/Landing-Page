@@ -13,3 +13,6 @@ COMMIT LOG:
 2. Basic HTML structure with (most) font stylings
 3. Header/Footer changes, possibly complete
 4. Hero section styling
+5. README file commit update
+6. Information section added and styled
+7. README file commit update
