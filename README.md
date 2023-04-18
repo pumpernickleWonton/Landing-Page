@@ -17,3 +17,4 @@ COMMIT LOG:
 6. Information section added and styled
 7. README file commit update
 8. Quote section MOSTLY completed, possible tweaks in future commits
+9. Call to action section + styling

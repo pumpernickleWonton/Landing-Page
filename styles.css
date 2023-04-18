@@ -102,7 +102,7 @@ a {
 }
 
 .button {
-    width: 130px;
+    width: 120px;
     height: 35px;
     border: none;
     border-radius: 8px;
@@ -162,11 +162,47 @@ a {
     font-style: italic;
     color: #1f2937;
     margin-bottom: 10px;
+    align-self: center;
 }
 
 .cite {
     font-weight: bolder;
     align-self: flex-end;
+}
+
+/* CALL TO ACTION STYLING */
+
+.call-to-action {
+    margin: 100px;
+}
+
+.blue-box {
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 100px;
+    border: none;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+/* .cta-left, .cta-right {
+    padding: 20px;
+} */
+
+.cta-right {
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.cta-header {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.cta {
+    border: 2px solid white;
 }
 
 /* FOOTER SYTLING */
