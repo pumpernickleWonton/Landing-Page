@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    display: border-box;
 }
 
 body {
@@ -20,7 +21,11 @@ body {
 }
 
 .wrapper-white {
-    background-color: #ddd;
+    background-color: white;
+}
+
+.wrapper-grey {
+    background-color: #d2d6db;
 }
 
 /* HEADER SECTION STYLING */
@@ -93,6 +98,7 @@ a {
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 5px;
 }
 
 .button {
@@ -140,6 +146,27 @@ a {
 .info-text {
     flex-wrap: wrap;
     padding: 10px;
+}
+
+/* QUOTE SECTION STYLING */
+
+.quote-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.quote > p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.cite {
+    font-weight: bolder;
+    align-self: flex-end;
 }
 
 /* FOOTER SYTLING */
